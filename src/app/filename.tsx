@@ -1,6 +1,6 @@
-type FileType = "PDF" | "vapt" | "xlsx";
+export type FileType = "PDF" | "vapt" | "xlsx";
 
-interface FileInfo {
+export interface FileInfo {
   fname: string;
   ftype: FileType;
   no_findings: number;
